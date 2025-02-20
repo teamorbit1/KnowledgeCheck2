@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Knowledge Check#2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+
+<header>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign Up</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+</header>
+
+
+<main>
+
+  <section id="signUpForm">
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+
+          <form class="row g-3 needs-validation bg-secondary-subtle p-3" novalidate>
+
+            <div class="row" id="emailRow">
+
+              <div class="col-md-12">
+                <label for="userEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="userEmail" placeholder="Email" required>
+              </div> 
+
+            </div>
+
+            <div class="row pt-3" id="firstLastNameRow">
+
+              <div class="col-md-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+              </div>
+
+
+              <div class="col-md-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+              </div>
+
+            </div>
+
+            <div class="row pt-3" id="passwordRow">
+
+             <div class="col-md-12">
+               <label for="password" class="form-label">Password</label>
+               <input type="password" class="form-control" name="password" id="userPw" placeholder="password" required>
+             </div> 
+
+            </div>            
+            
+            <div class="row pt-3" id="submitButtonRow">
+
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="tos" required>
+                  <label class="form-check-label" for="tos">
+                    Agree to terms and conditions
+                  </label>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row pt-3">
+
+              <div class="col-12">
+                <button class="btn btn-success" type="submit">Register</button>
+              </div>
+
+            </div>
+
+          </form>
+              
+        </div>      
+      </div>    
+    </div>
+  </section>  
+
+
+<section id="sampleData">
+  
+  <div class="container mt-5">
+    <div class="d-flex justify-content-center">
+      <div class="col-md-6">
+
+        <h1 class="text-center">Recent Sign Ups</h1>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-sm table-dark table-striped">
+            
+              <thead class="text-center">
+                <tr>
+                  <th>Email</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                </tr>
+              </thead>
+              <tbody class="text-center table-group-divider">
+
+                <tr>
+                  <td>test1@gmail.com</td>
+                  <td>Harry</td>
+                  <td>Toofy</td>
+                </tr>
+
+                <tr>
+                  <td>test2@gmail.com</td>
+                  <td>Emma</td>
+                  <td>Johnson</td>
+                </tr>
+
+                <tr>
+                  <td>test3@gmail.com</td>
+                  <td>Liam</td>
+                  <td>Smith</td>
+                </tr>
+
+                <tr>
+                  <td>test4@gmail.com</td>
+                  <td>Olivia</td>
+                  <td>Williams</td>
+                </tr>
+
+                <tr>              
+                  <td>test5@gmail.com</td>
+                  <td>Noah</td>
+                  <td>Brown</td>
+                </tr>
+
+                <tr>
+                  <td>test6@gmail.com</td>
+                  <td>Ava</td>
+                  <td>Jones</td>
+                </tr>
+
+                <tr>
+                  <td>test7@gmail.com</td>
+                  <td>William</td>
+                  <td>Garcia</td>
+                </tr>
+
+                <tr>
+                  <td>test8@gmail.com</td>
+                  <td>Sophia</td>
+                  <td>Miller</td>
+                </tr>
+
+                <tr>
+                  <td>test9@gmail.com</td>
+                  <td>James</td>
+                  <td>Davis</td>
+                </tr>
+
+                <tr>
+                  <td>test10@gmail.com</td>
+                  <td>Isabella</td>
+                  <td>Rodriguez</td>
+                </tr>
+
+                <tr>
+                  <td>test11@gmail.com</td>
+                  <td>Benjamin</td>
+                  <td>Martinez</td>
+                </tr>
+
+              </tbody>
+               
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+</main>  
+
+
+
+
+<!-- JS to complete the validation for the form -->
+<script>
+  (function () {
+    'use strict';
+
+    let forms = document.querySelectorAll('.needs-validation');
+
+    forms.forEach(function(form) {
+      form.addEventListener('submit', function(event) {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+
+        form.classList.add('was-validated');
+      }, false);
+    });
+  })();
+</script>
+
+
+
+  </body>
+</html>
